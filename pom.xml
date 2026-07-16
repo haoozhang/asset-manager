@@ -17,6 +17,10 @@
     
     <properties>
         <java.version>8</java.version>
+        <!-- CVE-2026-10532: logback-core Object Injection (GHSA-jhq6-gfmj-v8fx) — override to 1.5.35 -->
+        <logback.version>1.5.35</logback.version>
+        <!-- CVE-2026-54515: jackson-databind case-insensitive @JsonIgnoreProperties bypass (GHSA-5jmj-h7xm-6q6v) — override to 2.21.5 -->
+        <jackson-bom.version>2.21.5</jackson-bom.version>
     </properties>
 
     <modules>
