@@ -1,0 +1,13 @@
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/model/ImageMetadata.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/config/AwsS3Config.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/service/BackupMessageProcessor.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/service/AwsS3Service.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/repository/ImageMetadataRepository.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/model/ImageProcessingMessage.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/service/LocalFileStorageService.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/controller/S3Controller.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/AssetsManagerApplication.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/model/S3StorageItem.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/config/RabbitConfig.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/controller/HomeController.java
+/home/runner/work/asset-manager/asset-manager/web/src/main/java/com/microsoft/migration/assets/service/StorageService.java

@@ -17,6 +17,17 @@
     
     <properties>
         <java.version>8</java.version>
+        <!-- CVE fixes: override Spring Boot BOM managed versions -->
+        <!-- logback 1.2.13: fixes CVE-2023-6378 (logback-classic). logback-core CVEs require Java 11+. -->
+        <logback.version>1.2.13</logback.version>
+        <!-- jackson-bom 2.18.4: fixes CVE-2026-50193, CVE-2026-54512, CVE-2026-54513, CVE-2026-54514 -->
+        <jackson-bom.version>2.18.4</jackson-bom.version>
+        <!-- tomcat 9.0.118: fixes 32 CVEs including CRITICAL CVE-2025-24813, CVE-2026-41293, CVE-2026-43515, CVE-2026-43512 -->
+        <tomcat.version>9.0.118</tomcat.version>
+        <!-- postgresql 42.7.7: fixes CVE-2024-1597 (CRITICAL SQL injection), CVE-2026-42198 -->
+        <postgresql.version>42.7.7</postgresql.version>
+        <!-- netty 4.1.121.Final: fixes 21 CVEs in netty-codec-http, netty-codec-http2, netty-handler -->
+        <netty.version>4.1.121.Final</netty.version>
     </properties>
 
     <modules>
